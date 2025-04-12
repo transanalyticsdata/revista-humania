@@ -1,88 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <title>HumanIA - Edición Nº 1</title>
+  <meta charset="UTF-8">
+  <title>HumanIA - Revista de Innovación y Tecnología</title>
   <style>
     body {
-      font-family: Georgia, serif;
-      margin: 0;
-      background: #fefefe;
+      font-family: 'Georgia', serif;
+      background-color: #f7f7f7;
       color: #333;
-    }
-    .portada {
+      margin: 0;
+      padding: 0;
       text-align: center;
-      padding: 60px;
+    }
+    header {
       background-color: #0f2027;
       color: white;
+      padding: 40px 20px;
     }
-    .portada img {
-      width: 400px;
-      margin-top: 20px;
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
     }
-    .indice, .contenido {
-      padding: 40px;
-      max-width: 800px;
+    header p {
+      margin: 10px 0 0;
+      font-style: italic;
+      font-size: 1.1em;
+    }
+    main {
+      padding: 40px 20px;
+    }
+    h2 {
+      color: #0f2027;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
       margin: auto;
     }
-    .indice ul {
-      padding-left: 20px;
+    li {
+      background: white;
+      margin: 15px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
     }
-    .salto {
-      page-break-before: always;
+    li:hover {
+      transform: scale(1.02);
+    }
+    a {
+      text-decoration: none;
+      color: #0f2027;
+      font-weight: bold;
+      font-size: 1.1em;
     }
     footer {
-      text-align: center;
-      font-size: 14px;
-      color: #888;
-      padding: 40px;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <div class="portada">
+  <header>
     <h1>HumanIA</h1>
-    <h3>Edición Nº 1 · 12/04/2025</h3>
-    <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-XXXXX/imagen_portada.png" alt="Imagen portada" />
-    <p><b>Tema 1:</b> Desvelando el Futuro: Inteligencia Artificial y su Impacto<br>
-       <b>Tema 2:</b> Máquinas al Aprendizaje: El Cambio Silencioso<br>
-       <b>Tema 3:</b> Innovación en el Desarrollo de Software</p>
-  </div>
+    <p>Revista de Tecnología, Innovación y Análisis Crítico con Espíritu Académico</p>
+  </header>
 
-  <div class="salto"></div>
-
-  <div class="indice">
-    <h2>Índice</h2>
+  <main>
+    <h2>📚 Ediciones Publicadas</h2>
     <ul>
-      <li>Tema 1: Desvelando el Futuro: Inteligencia Artificial y su Impacto</li>
-      <li>Tema 2: Máquinas al Aprendizaje: El Cambio Silencioso</li>
-      <li>Tema 3: Innovación en el Desarrollo de Software</li>
+      <li><a href="HumanIA_Edicion_1.html">📘 Edición Nº1 – Abril 2025: IA, ML y Automatización</a></li>
+      <!-- Aquí podrás ir agregando más ediciones -->
     </ul>
-  </div>
+  </main>
 
-  <div class="salto"></div>
+  <footer>
+    &copy; 2025 Transanalytics Data · Editor: Ricardo Vásquez Silva · contacto@transanalyticsdata.com
+  </footer>
+</body>
+</html>
 
-  <div class="contenido">
-    <h2>Tema 1</h2>
-    <p>[Aquí va el contenido completo del primer artículo]</p>
-    <div class="salto"></div>
-
-    <h2>Tema 2</h2>
-    <p>[Aquí va el contenido completo del segundo artículo]</p>
-    <div class="salto"></div>
-
-    <h2>Tema 3</h2>
-    <p>[Aquí va el contenido completo del tercer artículo]</p>
-    <div class="salto"></div>
-  </div>
-
-  <div class="contenido">
-    <h2>🤔 Pregunta para ti</h2>
-    <p>¿Cómo imaginas el equilibrio entre inteligencia artificial y toma de decisiones humanas en los próximos años?</p>
-  </div>
-
-  <div class="salto"></div>
-
-  <div class="contenido">
-    <h2>Línea Editorial</h2>
-    <p><b>HumanIA</b> es una publicación desarrollada por <b>Ricardo Vásquez Silva</b>, Ingeniero Civil Industrial, MBA & MIT. Parte del trabajo de investigación y visión estratégica de
